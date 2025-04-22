@@ -36,7 +36,7 @@ public partial class Program
         }
         while (true)
         {
-            Console.WriteLine("Drag and drop the dr_localization.bin file to extract\nor the .txt file to repack");
+            Console.WriteLine("Drag and drop the dr_localization.bin file to extract\nor the folder to repack");
             Execute(Console.ReadLine().Replace("\"", ""));
         }
     }

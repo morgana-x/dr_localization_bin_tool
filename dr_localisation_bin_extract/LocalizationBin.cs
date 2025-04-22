@@ -80,7 +80,6 @@ namespace dr_localisation_bin_extract
                 outbin.Write(BitConverter.GetBytes(section.Unknown));
                 outbin.Write(BitConverter.GetBytes(section.Values.Count));
 
-                Console.WriteLine(outbin.Position);
                 int offset = 0;
 
                 foreach (var value in section.Values)
